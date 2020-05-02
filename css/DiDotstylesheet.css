@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-Italic.woff2') format('woff2'),
+        url('Didot-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+

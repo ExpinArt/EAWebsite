@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-Italic.eot');
+    src: url('Didot-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Didot-Italic.woff2') format('woff2'),
+        url('Didot-Italic.woff') format('woff'),
+        url('Didot-Italic.ttf') format('truetype'),
+        url('Didot-Italic.svg#Didot-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Futura';
+    src: url('Futura-Light.eot');
+    src: url('Futura-Light.eot?#iefix') format('embedded-opentype'),
+        url('Futura-Light.woff2') format('woff2'),
+        url('Futura-Light.woff') format('woff'),
+        url('Futura-Light.ttf') format('truetype'),
+        url('Futura-Light.svg#Futura-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+.container1{
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:18%;
+	padding-right:18%;
+
+}
+.container2{
+	padding-top:15%;
+	padding-bottom:5%;
+	padding-left:20%;
+	padding-right:20%;
+
+}
+
+.container3{
+	padding-top:15%;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.container4{
+	padding-top:1%;
+	padding-bottom:5%;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.bigcontainer{
+	 width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.bigcontainer1{
+	width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+	padding-top:5%;
+	padding-left:2%;
+	padding-right:15%;
+}
+
+.bigcontainer2{
+	width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+	padding-top:5%;
+	padding-left:15%;
+	padding-right:2%;
+}
+
+
+#uppertext{
+	font-family: "Didot";
+}
+
+
+#lowertext{
+	font-family: "Futura";
+}
+
+
+/*NavBar*/
+
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
+.nav {
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+	border-style: none none groove none;
+	opacity:100%;
+	background-color:#fff;
+	z-index:1;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #000;
+    line-height: 65px;
+    font-size: 2.4rem;
+	opacity:100%;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #808080;
+	
+}
+
+
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-position: center top;
+	background-size:cover;
+}
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+/* Media qurey section */
+
+@media screen and (max-width:768px) {
+    .nav div.main_list {
+    visibility:hidden;
+}
+}
+
+
+/*fadein*/
+#fadein {
+    text-align: center;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.lower-right {
+	position: absolute;
+	margin-left:65%;
+	margin-top:-28%;
+}
+
+.lower-right2 {
+	position: absolute;
+	margin-left:25%;
+	margin-top:-63%;
+  
+}
+
+.lower-right3 {
+position: absolute;
+  bottom: 20px;
+  right: 70%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#fff;
+}
+
+.lower-right4 {
+position: absolute;
+  bottom: 20px;
+  right: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.lower-right5 {
+position: absolute;
+  bottom: 10px;
+  right: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container{
+	position: relative;
+}
+
+/*slide in*/
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.hoverbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: gray;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .hoverbox {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.hovertext {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .hovertext {
+  transform: translateY(0);
+}
