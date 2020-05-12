@@ -28,6 +28,7 @@
 	padding-bottom:5%;
 	padding-left:18%;
 	padding-right:18%;
+	margin-top: 10%;
 
 }
 .container2{
@@ -57,6 +58,7 @@
   margin-left: auto;
 	padding-left:5%;
 	padding-right:5%;
+	
 }
 
 .bigcontainer1{
@@ -77,6 +79,21 @@
 	padding-right:2%;
 }
 
+.bigcontainer3{
+	width: 1080px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:5%;
+}
+
+.serieswordscontainer{
+	width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+		padding-top:15%;
+	padding-left:20%;
+	padding-right:20%;
+}
 
 #uppertext{
 	font-family: "Didot";
@@ -246,27 +263,20 @@
 
 .lower-right3 {
 position: absolute;
-  bottom: 20px;
-  right: 70%;
-  padding-left: 20px;
-  padding-right: 20px;
-  color:#fff;
+margin-top:-10%;
+margin-left:20%
 }
 
 .lower-right4 {
 position: absolute;
-  bottom: 20px;
-  right: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+margin-top:-15%;
+margin-left:60%
 }
 
 .lower-right5 {
 position: absolute;
-  bottom: 10px;
-  right: 25%;
-  padding-left: 20px;
-  padding-right: 20px;
+margin-top:-14%;
+margin-left:50%
 }
 
 .container{
