@@ -28,7 +28,6 @@
 	padding-bottom:5%;
 	padding-left:18%;
 	padding-right:18%;
-	margin-top: 10%;
 
 }
 .container2{
@@ -119,9 +118,9 @@
     line-height: 65px;
     text-align: center;
 	border-style: none none groove none;
-	opacity:100%;
+	opacity:80%;
 	background-color:#fff;
-	z-index:1;
+	z-index:100;
 }
 
 .nav div.logo {
@@ -297,7 +296,7 @@ margin-left:50%
   bottom: 0;
   left: 0;
   right: 0;
-  background: #D8D8D8;
+  background: #fff;
   color: black;
   visibility: hidden;
   opacity: 0;
@@ -306,19 +305,23 @@ margin-left:50%
   justify-content: center;
 
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  transition: opacity .3s, visibility .3s;
 }
 
 .img__wrap:hover .hoverbox {
   visibility: visible;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .hovertext {
   transition: .2s;
-  transform: translateY(1em);
+  transform: translateY(1em);  
 }
 
 .img__wrap:hover .hovertext {
   transform: translateY(0);
+}
+
+.colorig{
+	background-color:grey;
 }
